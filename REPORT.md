@@ -50,8 +50,12 @@ For **each week 1–7**, one sentence: “What I applied concretely”:
 7. Week 7:
 
 **Automation:** what happens when you `git push`?
+Code download
+Enviroment setup
+Dependence installation
 
 **Without AWS:** what did you simulate instead?
+Instead of provisioning actual virtual cloud servers on AWS, we used local Docker containers running on our machine to simulate an isolated production deployment environment. We also utilized a fully managed, serverless continuous integration engine directly through GitHub Actions runner environments to automate code testing and image building pipelines on push events.
 
 ## AWS bonus (optional)
 
